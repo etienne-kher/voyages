@@ -20,6 +20,7 @@ a
 					height: 600px;
 					background-size: cover;
 					background-repeat: no-repeat;
+					background-attachment: fixed;
 				}
 h1
 	{
@@ -43,6 +44,7 @@ h1
 				 background-image: url(../image/drap-turqui.jpg);
 				 background-size: cover;
 				 background-repeat: no-repeat;
+				 background-attachment: fixed;
 				}
 .oc-section-32
 				{
@@ -66,6 +68,11 @@ h1
 					overflow-x: hidden;
 					border:1px solid white;
 					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+					background-size: 66% 100%;
+   				    background-position: -15% 85%;
+   				    background-size: cover;
+   				    text-shadow: 2px 2px black;
 				}
 h2
 	{
@@ -90,6 +97,13 @@ h2
 					height: 200px;
 					border:1px solid white;
 					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+					background-size: 100%;
+   					 background-repeat: no-repeat;
+  				    text-shadow: 2px 2px black;
+  				    background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+
 				}
 .div-izmir
 			{	
@@ -105,6 +119,10 @@ h2
 					overflow-x: hidden;
 					border:1px solid white;
 					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 80%;
+
 			}
 .div-capadoce
 			{	
@@ -121,6 +139,10 @@ h2
 					overflow-x: hidden;
 					border:1px solid white;
 					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 100%;
+  				    background-repeat: no-repeat;
 			}
 .im-cap
 		{
@@ -133,6 +155,7 @@ h2
 				 flex-direction: row;
 				 justify-content: space-around;
 				 padding: 5%;
+				 background-attachment: fixed;
 				}
 .div-saintesophie
 				{
@@ -149,6 +172,10 @@ h2
 					overflow-x: hidden;
 					border:1px solid white;
 					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 100%;
+  				    background-repeat: no-repeat;
 				}
 .titre-monument
 				{
@@ -170,6 +197,11 @@ h2
 					overflow-x: hidden;
 					border:1px solid white;
 					box-shadow: 4px 4px 7px #4b0d0d;
+					background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 70%;
+  				    background-repeat: no-repeat;
+  				    background-position: 80% 99%;
 				}
 .div-mosqué-blue
 			{	
@@ -186,14 +218,19 @@ h2
 				overflow-x: hidden;
 				border:1px solid white;
 				box-shadow: 4px 4px 7px #4b0d0d;
+				background-attachment: fixed;
+  				    text-shadow: 2px 2px black;
+  				    background-size: 70%;
+  				    background-repeat: no-repeat;
+  				background-position: 0% 100%;
 			}
 .stade
 		{
-			 border-radius: 10px;
-		 font-size: 20px;
+				 border-radius: 10px;
+				 font-size: 20px;
 				font-weight:bold;
 			 	 width: 30%;
-				background-image: url(../image/stade.jpg);
+				background-image: url(../image/stade-turk.jpg);
 				background-size: cover;
 				padding: 5%;
 				height: 200px;
@@ -202,9 +239,15 @@ h2
 				overflow-x: hidden;
 				border:1px solid white;
 				box-shadow: 4px 4px 7px #4b0d0d;
+				background-attachment: fixed;
+				background-position: 83% 100%;
+  				background-size: 42% 90%;
+    			background-repeat: no-repeat;
+  				text-shadow: 2px 2px black;
 		}
 .monument2
 			{
+				padding:5%;
 				display: flex;
 				flex-direction: row;
 				justify-content: space-around;
