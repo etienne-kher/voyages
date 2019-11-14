@@ -5,12 +5,12 @@
 
 .h1ladominique
   {
+     margin-top: 5%;
      background-image: url(../image/panorama-dominique.jpg);
      padding-top: 80px;
      height: 30%;
      background-size: cover;
-
-
+     padding-bottom: 10%;
   }
 .oc-section1-31
            {
