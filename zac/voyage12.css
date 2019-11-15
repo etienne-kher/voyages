@@ -1,0 +1,318 @@
+body
+{
+	margin: 0;
+}
+
+main
+{
+	height: 100%;
+}
+
+.drapeau
+{
+	width: 100%;
+	height: 1000px;
+	background:url("photo/japanflag.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+.drapeau2
+{
+	width: 100%;
+	height: 900px;
+	background:url("photo/japanflag.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+
+#tokyo
+{
+	width: 100%;
+	height:1000px;
+	background:url("photo/tokyo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+#fuji{
+	width: 100%;
+	height:800px;
+	background:url("photo/fuji.jpeg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#miyajima
+{
+	width: 100%;
+	height:1000px;
+	background:url("photo/miyajima.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+p
+{
+    font-size: 360%; 
+    margin: 0%;
+    text-shadow: 3px 3px 3px red;
+    color: whitesmoke;
+    
+}
+
+#konnichiwa
+{
+    position: absolute;
+    top: 100px;
+    left: 190px;
+}
+
+#nihoneyokoso
+{
+    position: absolute;
+    top: 370px;
+    left: 900px;
+   
+}
+
+#nihon
+{
+	position: absolute;
+    top: 800px;
+    left: 90px;
+
+}
+
+
+
+
+#div-tokyo
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#6f1d1da1;
+	color: white;
+	padding: 1%;
+	position: relative;
+	top: 37%;
+	left: 5%;
+	box-shadow: 5px 5px 5px black;
+	font-family: 'Rosarivo', serif;
+	border-radius: 7%;
+}
+
+.japan-location
+{
+	border-radius: 11%;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    -webkit-box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+    box-shadow: 54px 31px 29px 13px rgba(0, 0, 0, 0.7);
+	margin-top: 2%;
+	margin-left:45% ;
+    background-image: url("photo/japan-location.jpg");
+    background-size: cover;
+    height: 345px;
+    width: 40%;
+}
+
+#paysdusoleillevant-h1
+{
+	position: relative;
+	top: 12%;
+	left: 30%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+
+#fujih1
+{
+	position: relative;
+	top: 20%;
+	left: 32%;
+	color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+
+#div-fuji
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#6f1d1da1;
+	color: white;
+	padding: 1%;
+	position: relative;
+	top: 45%;
+	left: 5%;
+	box-shadow: 5px 5px 5px black;
+	font-family: 'Rosarivo', serif;
+	border-radius: 7%;
+}
+
+.fujigif
+{
+	
+	margin-top: 7%;
+    margin-left:65% ;
+    border-radius: 14%;
+    box-shadow:8px 8px 8px black;
+}
+
+
+.div-lien{
+	position: relative;
+	background-color: #6f1d1da1;
+    width: 10%;
+	text-align: center;
+	box-shadow: 5px 5px 5px black;	
+	padding: 1%;
+	transition: all 2s;
+}
+.div-lien:hover{
+	transform: rotate3d(-33, 22, 4, 720deg) scale(1.3);
+}
+
+#tokyo-lien
+{
+	top: 20%;
+	left: 42%;
+
+}
+
+.lien:visited{
+    color: white;
+}
+
+.div-lien{
+		position: relative;
+		background-color:#6f1d1da1;
+		width: 10%;
+		text-align: center;
+		box-shadow: 5px 5px 5px black;	
+		padding: 1%;
+		transition: all 2s;
+	}
+.div-lien:hover{
+		transform: rotate3d(-33, 22, 4, 720deg) scale(1.3);
+	}
+	
+#fuji-lien
+	{
+		top: 1%;
+		left: 35%;
+	}
+
+
+#miyajimah1
+{
+	position: absolute;
+	top: 410%;
+	left: 34%;
+    color: white;
+	font-family: 'Rosarivo', serif;
+	font-size: 300%;
+	margin: 0;
+	text-shadow: 1px 1px 1px black;
+	display: block;
+	width: 50%;
+}
+
+#div-miyajima
+{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:#6f1d1da1;
+	color: white;
+	padding: 1%;
+	position: relative;
+	top: 37%;
+	left: 8%;
+	box-shadow: 5px 5px 5px black;
+	font-family: 'Rosarivo', serif;
+	border-radius: 7%;
+}
+
+
+#miyajima-lien
+	{
+		top: 60%;
+		left: 36%;
+	}
+
+
+.video-miyajima
+{
+	margin-top:4%;
+	margin-left:50%;
+    border-radius: 3%;
+    box-shadow:5px 5px 5px black;
+}
+
+#lastpage-lien
+{
+	top: 90%;
+	left: 44%;	
+}
+
+
+#arigatou
+{
+    position: absolute;
+    top: 540%;
+    left: 400px;
+   
+}
+
+
+#sayonara
+{
+    position: absolute;
+    top: 590%;
+    left: 580px;
+   
+}
+
+#traduction
+{
+    position: absolute;
+    top: 610%;
+    left: 690px;
+    font-size:15px;
+}
+
+#traduction2
+{
+    position: absolute;
+    top: 125%;
+    left: 1000px;
+    font-size:15px;
+}
+
+
+
+	
+

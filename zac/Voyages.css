@@ -1,0 +1,28 @@
+body{
+	margin: 0;}
+main{
+	height: 100%;
+}
+.drap{
+	width: 100%;
+	height: 1200px;
+	background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/2000px-Flag_of_Norway.svg.png");
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+#riv{
+	width: 100%;
+	height:1000px;
+	background:url("https://www.scanditours.fr/wp-content/uploads/sites/4/2019/10/ATYFNA5hVmkAN1IsD2JXMQA7VGgBOAAuXWYjpg-1366x519.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+#boreal{
+	width: 100%;
+	height:  1100px;
+	background:url("https://photos.altai-travel.com/1920x1040/aurores-boreales-en-laponie-norvegienne-1155.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
