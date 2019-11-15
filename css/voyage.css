@@ -66,6 +66,10 @@ img
     padding: 3%;
 
 }
+.img-profil{
+    width: 150px;
+    height: 150px;    
+}
 .lien{
     text-shadow: none;
 }
