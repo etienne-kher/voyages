@@ -5,7 +5,7 @@ body
 
 main
 {
-	height: 100%;
+	margin-top: 5%;
 }
 
 .drapeau
@@ -181,7 +181,9 @@ p
     box-shadow:8px 8px 8px black;
 }
 
-
+.lien{
+	color: white;
+}
 .div-lien{
 	position: relative;
 	background-color: #6f1d1da1;

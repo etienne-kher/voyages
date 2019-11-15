@@ -4,9 +4,9 @@ body
 }
 
 
-.main
+main
 {
-	height:100%;
+	
 	margin-top: 5%;
 }
 .drap
@@ -212,6 +212,9 @@ p
 
 }
 	
+	.lien{
+	color: white;
+}
 
 .div-lien{
 		position: relative;
