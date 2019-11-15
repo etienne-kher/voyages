@@ -113,7 +113,11 @@ nav
              
 
 footer {
-          background-color: #5C5956;
+          background-color:#efd295;
+          text-transform: capitalize;
+          text-shadow: 1px 1px 1px
+          black;
+          font-size: 120%;
         }
 
 
@@ -141,6 +145,7 @@ footer {
 .oc-container {
   display: flex;
   flex-direction : column;
+  align-items: center;
 }
 
 .oc-columns {
